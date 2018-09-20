@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edit_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:hint="@string/tv1_message"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Intent1btn"
+        android:textSize="16dp"
+        android:onClick="sendMessageFromIntent1"
+        android:paddingBottom="8dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Intent2btn"
+        android:textSize="16dp"
+        android:onClick="sendMessageFromIntent2"
+        android:paddingBottom="8dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Intent3btn"
+        android:textSize="16dp"
+        android:onClick="sendMessageFromIntent3"
+        android:paddingBottom="8dp" />
+</LinearLayout>

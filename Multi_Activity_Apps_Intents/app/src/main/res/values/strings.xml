@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Multi_Activity_Apps_Intents</string>
+    <string name="tv1_message">Enter Message to display with another activity</string>
+    <string name="input_message">Type message</string>
+    <string name="Intent1btn">Display with Activity A</string>
+    <string name="Intent2btn">Display with Activity B</string>
+    <string name="Intent3btn">Display with Activity C</string>
+    <string name="title_activity_activity">Activity A</string>
+    <string name="title_activity_b">Activity B</string>
+</resources>
+

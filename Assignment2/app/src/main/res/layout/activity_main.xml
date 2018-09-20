@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AsyncTask Assignment 1"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter the duration(in milliseconds)"
+            android:layout_marginLeft="10dp"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/editTextInput"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:inputType="number"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/displayMessageBtn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="DISPLAY MSG 1"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:id="@+id/displayMessageBtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="DISPLAY MSG 2"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:id="@+id/btnLongRunOperation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="START LONG RUNNING OPERATION"
+        android:onClick="onClick"
+        android:layout_marginTop="10dp"/>
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/textViewOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:maxLines="1"/>
+    <TextView
+        android:id="@+id/textViewMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:maxLines="1"/>
+
+</LinearLayout>

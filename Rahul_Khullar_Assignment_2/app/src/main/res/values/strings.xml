@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AsyncAssignment</string>
+    <string name="TextView1">AsyncTask Assignment 1</string>
+    <string name="TextView2">Enter the duration(in milliseconds)</string>
+    <string name="Button1">DISPLAY MSG 1</string>
+    <string name="Button2">DISPLAY MSG 2</string>
+    <string name="Button3">START LONG RUNNING OPERATION</string>
+</resources>

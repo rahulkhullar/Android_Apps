@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Print name</string>
+    <string name="hint">Enter Text</string>
+    <string name="hintOne">Enter Text</string>
+    <string name="buttonOne">Click</string>
+</resources>
